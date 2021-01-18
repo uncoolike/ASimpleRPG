@@ -64,7 +64,7 @@ namespace ASimpleRPGLibrary
                     continue;
                 }
 
-                if (menuChoice == 3) // Specials menu
+                if (menuChoice == 3)
                 {
                     Console.WriteLine("Choose Special:\n\n1) Spin Attack\t2) Double Slash\n4) <--- Go back\n");
 

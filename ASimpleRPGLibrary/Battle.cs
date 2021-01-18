@@ -32,7 +32,7 @@ namespace ASimpleRPGLibrary
             {
                 PrintTheStats(bandit, warrior);
 
-                warrior.YourTurn(warrior.menuChoice(), bandit);
+                warrior.YourTurn(warrior.Menu(), bandit);
 
                 if (bandit.health > 0)
                 {
@@ -53,7 +53,7 @@ namespace ASimpleRPGLibrary
             {
                 PrintTheStats(knight, warrior);
 
-                warrior.YourTurn(warrior.menuChoice(), knight);
+                warrior.YourTurn(warrior.Menu(), knight);
 
                 if (knight.health > 0)
                 {
@@ -73,7 +73,7 @@ namespace ASimpleRPGLibrary
             {
                 PrintTheStats(dragon, warrior);
 
-                warrior.YourTurn(warrior.menuChoice(), dragon);
+                warrior.YourTurn(warrior.Menu(), dragon);
 
                 if (dragon.health > 0)
                 {
