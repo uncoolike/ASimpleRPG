@@ -17,7 +17,7 @@ namespace ASimpleRPGLibrary
 
         public void LevelUp()
         {
-            Console.WriteLine("You leveled up !\nAttack +3\tMax health + 10\nHeal +5\n");
+            Console.WriteLine("You leveled up !\nAttack +3\tMax health + 10\nHeal +5\n\n");
             Console.ReadLine();
             Console.Clear();
 
