@@ -17,7 +17,7 @@ namespace ASimpleRPGLibrary
 
         public static void BeforeKnights()
         {
-            Console.WriteLine("The bandits weren't much match for you. You dry your blades and continue on to the dragons lair.\nHowever before their deaths you came to the realization that these bandits may have been under some sort of mind control as they fought carelessly in battle as if they had no concern for their own lives\nYou have heard of dragons having the ability to control the minds of humans, it turns out the dragons have taken over the minds\nof some of the kingdoms finest knights, you are approached by two that you know by name, they also seem to be under the dragons spell.\n");
+            Console.WriteLine("The bandits were not much of a match for you. You dry your blades and continue on to the dragons lair.\nHowever before their deaths you came to the realization that these bandits may have been under some sort of mind control as they fought carelessly in battle as if they had no concern for their own lives\nYou have heard of dragons having the ability to control the minds of humans, it turns out the dragons have taken over the minds\nof some of the kingdoms finest knights, you are approached by two that you know by name, they also seem to be under the dragons spell.\n");
             Console.ReadLine();
             Console.Clear();
         }

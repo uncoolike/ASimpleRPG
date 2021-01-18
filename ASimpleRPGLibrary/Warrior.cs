@@ -17,7 +17,7 @@ namespace ASimpleRPGLibrary
 
         public void LevelUp()
         {
-            Console.WriteLine("You leveled up !\nAttack +3\tMax health + 10\nHeal +5\n\n");
+            Console.WriteLine("You leveled up !\nAttack +3\tMax health + 10\tHeal +5\n\n");
             Console.ReadLine();
             Console.Clear();
 
@@ -53,7 +53,7 @@ namespace ASimpleRPGLibrary
             int menuChoice = 0, menuChoice2;
             while (correctInput)
             {
-                Console.WriteLine("What would you like to do?\n\n1) Attack\t2) Heal\t3) Special\n");
+                Console.WriteLine("What would you like to do?\n\n1) Attack\t2) Heal\t\t3) Special\n");
 
                 bool test = int.TryParse(Console.ReadLine(), out menuChoice);
                 if (!test || menuChoice > 3 || menuChoice <= 0)
@@ -66,7 +66,7 @@ namespace ASimpleRPGLibrary
 
                 if (menuChoice == 3)
                 {
-                    Console.WriteLine("Choose Special:\n\n1) Spin Attack\t2) Double Slash\n4) <--- Go back\n");
+                    Console.WriteLine("Choose Special:\n\n1) Helm Splitter\t2) Double Cut\n4) <--- Go back\n");
 
                     bool test2 = int.TryParse(Console.ReadLine(), out menuChoice2);
                     if (!test2 || menuChoice2 > 3 || menuChoice2 <= 0)
