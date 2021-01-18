@@ -42,7 +42,7 @@ namespace ASimpleRPGLibrary
 
             }
 
-            Console.WriteLine("{0} was killed!", bandit.name);
+            Console.WriteLine("{0} was slain!", bandit.name);
             Console.ReadLine();
             Console.Clear();
         }
@@ -62,7 +62,7 @@ namespace ASimpleRPGLibrary
                 }
             }
 
-            Console.WriteLine("{0} was killed!", knight.name);
+            Console.WriteLine("{0} was slain!", knight.name);
             Console.ReadLine();
             Console.Clear();
         }

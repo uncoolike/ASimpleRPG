@@ -71,7 +71,7 @@ namespace ASimpleRPGLibrary
                     bool test2 = int.TryParse(Console.ReadLine(), out menuChoice2);
                     if (!test2 || menuChoice2 > 3 || menuChoice2 <= 0)
                     {
-                        Console.WriteLine("Thats not one of the options ! Try again!\n");
+                        Console.WriteLine("Thats not one of the options! Try again!\n");
                         Console.ReadLine();
                         Console.Clear();
                         continue;

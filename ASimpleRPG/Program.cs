@@ -11,34 +11,34 @@ namespace ASimpleRPG
     {
         static void Main(string[] args)
         {
-            Warrior Dash = new Warrior("Madigan", 3, 15);
+            Warrior Madigan = new Warrior("Madigan", 3, 15);
 
-            Bandit Keith = new Bandit("Bandit Keith", 1, 5);
-            Bandit Ben = new Bandit("Bandit Ben", 2, 8);
+            Bandit Sebastian = new Bandit("Sebastian", 1, 5);
+            Bandit Clyde = new Bandit("Clyde", 2, 8);
 
-            Knight Leeroy = new Knight("Knight Leeroy", 3, 12);
-            Knight Seth = new Knight("Knight Seth", 5, 15);
+            Knight Leeroy = new Knight("Leeroy Jenkins", 3, 12);
+            Knight Seth = new Knight("Seth McFarlane", 5, 15);
 
-            Dragon BlueDrag = new Dragon("Blue Dragon", 7, 20, 2);
+            Dragon BlackDrag = new Dragon("Black Dragon", 7, 20, 2);
             Dragon RedDrag = new Dragon("Red Dragon", 8, 20, 3);
-            Dragon BlackDrag = new Dragon("Black Dragon", 10, 25, 4);
+            Dragon GoldDrag = new Dragon("Gold Dragon", 10, 25, 4);
 
             Story.BeforeBandits();
-            Battle.WithBandit(Dash, Keith);
-            Battle.WithBandit(Dash, Ben);
+            Battle.WithBandit(Madigan, Sebastian);
+            Battle.WithBandit(Madigan, Clyde);
 
-            Dash.LevelUp();
+            Madigan.LevelUp();
 
             Story.BeforeKnights();
-            Battle.WithKnight(Dash, Leeroy);
-            Battle.WithKnight(Dash, Seth);
+            Battle.WithKnight(Madigan, Leeroy);
+            Battle.WithKnight(Madigan, Seth);
 
-            Dash.LevelUp();
+            Madigan.LevelUp();
 
             Story.BeforeDragons();
-            Battle.WithDragon(Dash, BlueDrag);
-            Battle.WithDragon(Dash, RedDrag);
-            Battle.WithDragon(Dash, BlackDrag);
+            Battle.WithDragon(Madigan, BlackDrag);
+            Battle.WithDragon(Madigan, RedDrag);
+            Battle.WithDragon(Madigan, GoldDrag);
 
             Story.TheEnd();
         }
